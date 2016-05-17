@@ -1,0 +1,23 @@
+codemlz README
+
+Author: Zhengting Zou (ztzou@umich.edu)
+
+Version 0.1 (2016-05-17)
+
+Description:
+
+This is a modified version of codeml included in the PAML4.8 package (Author: Ziheng Yang). This modifed version can calculate a new parameter, eta, which is the relative selection coefficient of non-synonymous transitions if considering that of non-synonymous transversions is 1. The following parameters need to be fixed in the codeml.ctl file (i.e. other models and choices not implemented):
+
+################
+seqtype = 1
+clock = 0
+model = 0
+NSsites = 0
+Mgene = 0
+fix_alpha = 1
+alpha = 0.
+################
+
+Tests have been rather limited and more to follow. ABSOLUTELY NO WARRANTY.
+
+All copyright reserved. Please contact the author before usage of any purposes. I'm open to proper collaboration proposal. Thanks.
